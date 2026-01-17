@@ -9,14 +9,14 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-glow opacity-50" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px]" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-[120px]" />
-      
+
       {/* Grid Pattern */}
-      <div 
+      <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage: `linear-gradient(hsl(var(--foreground)) 1px, transparent 1px),
                            linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px)`,
-          backgroundSize: '60px 60px'
+          backgroundSize: "60px 60px",
         }}
       />
 
@@ -47,10 +47,8 @@ const Hero = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
           >
-            Real-World{" "}
-            <span className="text-gradient">Agentic Data</span>
-            <br />
-            & Model Evaluation
+            Real-World <span className="text-gradient">Agentic Data</span>
+            <br />& Model Evaluation
           </motion.h1>
 
           {/* Subheadline */}
@@ -62,9 +60,10 @@ const Hero = () => {
           >
             Measurable AI Gains. Safety-First. Human-Centered.
             <br className="hidden sm:block" />
-            We build agentic datasets, evaluation pipelines, and safety infrastructure 
-            that empower modern AI systems — from self-driving cars to humanoids and 
-            smartglasses — to perform reliably in the real world.
+            We build agentic datasets, evaluation pipelines, and safety
+            infrastructure that empower modern AI systems — from self-driving
+            cars to humanoids and smartglasses — to perform reliably in the real
+            world.
           </motion.p>
 
           {/* CTAs */}
@@ -74,8 +73,8 @@ const Hero = () => {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="flex items-center justify-center"
           >
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-gradient-primary hover:opacity-90 text-primary-foreground font-semibold px-8 py-6 text-lg shadow-glow transition-all duration-300"
             >
               Get Started
